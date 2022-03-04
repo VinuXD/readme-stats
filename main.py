@@ -8,7 +8,6 @@ import math
 import os
 import re
 import traceback
-from datetime import date
 from string import Template
 from time import sleep
 from urllib.parse import quote
@@ -17,7 +16,7 @@ import humanize
 import pytz
 import requests
 from dotenv import load_dotenv
-from github import Github, GithubException, InputGitAuthor
+from github import Github, InputGitAuthor
 from pytz import timezone
 
 from loc import LinesOfCode
