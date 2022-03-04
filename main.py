@@ -447,6 +447,7 @@ def get_waka_time_stats():
                 stats = (
                     stats + "💬 " + translate["Languages"] + ": \n" + lang_list + "\n\n"
                 )
+
         if showEditors.lower() in truthy:
             empty = False
             if len(data["data"]["editors"]) == 0:
